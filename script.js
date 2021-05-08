@@ -25,8 +25,7 @@ const changePlayer = function () {
 };
 
 rollDice.addEventListener('click', function () {
-  // const randNum = Math.ceil(Math.random() * 6);
-  const randNum = 4;
+  const randNum = Math.ceil(Math.random() * 6);
 
   if (randNum === 1) return changePlayer();
 
